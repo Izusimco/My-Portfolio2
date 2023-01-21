@@ -39,34 +39,35 @@
     </div>
   </nav>
   </header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <img src="img/contactm.webp" alt="contact-image" class="img-fluid">
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <br>
-        <p>Contact information:</p>
-        <ul class="list-unstyled">
-          <li>Email: <a href="mailto:izusimco@gmail.com" class="text-decoration-none"> izusimco@gmail.com </a><br></li>
-          <li>Phone: <a href="tel:+234 704 295 2423"class="text-decoration-none">+234 704 295 2423</a>></li>
-          <li>Address: #24 Dam road, Ushafa<br>Abuja, Nigeria.</li>
-        </ul>
-      </div>
+<div class="container d-flex">
+    <img src="img/contactm.webp" class="w-25" alt="contactmeimg">
+ <form class="ms-auto">
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="enter first name">
     </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" id="lastName" placeholder="enter last name">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email address">
+      <div id="emailHelp" class="form-text"><small>We'll never share your email with anyone else.</small></h6></div>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  <div class="ms-auto">
+    <h2 class="text-decoration-underline">Contact Me</h2><br>
+  <h4> Address: #24 Ushafa, Dam Road.<br>Abuja, Nigeria.<br><br>
+    <h6>email:<a href="mailto:izusimco@gmail.com"> izusimco@gmail.com </a><br>
+    tel: <a href="tel:+234 806 9396 655">+234 704 395 2423</h6></a></h4>
   </div>
+</div>
   <footer class="text-center mt-5">
     <p>find me on </p>
     <div class="social-media">
