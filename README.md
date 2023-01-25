@@ -13,5 +13,5 @@ Description of my portfolio consist of homepage, contact, about and work
  
  ## You can find me
  - Github: [@izusimco](https://www.github.com/izusimco)
- - Twitter: @smbadiegwu
+ - Twitter: [@smbadiegwu](https://www.twitter.com)
 
