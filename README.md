@@ -9,7 +9,7 @@ Description of my portfolio consist of homepage, contact, about and work
 
 ## Author
 
-- [@izusimco](https://www.github.com/izusimco)
+- Stephen Mbadiegwu [@izusimco](https://www.github.com/izusimco)
  
  ## Find me on
  - Github: [@izusimco](https://www.github.com/izusimco)
